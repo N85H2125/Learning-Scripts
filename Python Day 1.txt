@@ -1,0 +1,13 @@
+First day i have learned this
+>>> print("Let's get acquainted")
+Let's get acquainted
+>>> mood = input("How are you today")
+How are you todayFine
+ (and now if i want to check mood i can type):
+  >>> print(mood)
+Fine
+
+I have learned 
+print
+input
+box
