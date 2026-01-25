@@ -1,1 +1,3 @@
-# Learning-Scripts
+# script-drafts/
+├── 📁 python/
+└── 📁 broken-code/        # Не работающий код
