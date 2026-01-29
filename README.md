@@ -4,4 +4,4 @@ This repository contains all my programming experiments, half-finished projects,
 
 🔗 Professional Work
 For complete, documented projects:
-[NOT YET](https://github.com/N85H2125/My-best-projects-Scripts-)
+[Here](https://github.com/N85H2125/My-best-projects-Scripts-)
