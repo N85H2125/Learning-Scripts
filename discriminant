@@ -1,0 +1,21 @@
+a = float(input())
+b = float(input())
+c = float(input())
+#ax2 + b + c = 0
+from math import sqrt
+D = b * b - 4 * a * c
+if D < 0:
+    print("No roots")
+          
+elif D == 0:
+    x = -b / (2 * a)
+    print(x)
+elif D > 0:
+          x1 = (-b - sqrt(D)) / (2 * a)
+          x2 = (-b + sqrt(D)) / (2 * a)
+          print(max(x1, x2), min(x1, x2), sep='\n')
+practice math, cool project for me after 2 weeks of hard work
+
+
+
+
