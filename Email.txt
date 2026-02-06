@@ -17,4 +17,5 @@ max
 not
 in
 str
+and math method like ** * % / // + - >= <= == 
 
