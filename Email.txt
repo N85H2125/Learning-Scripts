@@ -14,3 +14,7 @@ else
 float
 min
 max
+not
+in
+str
+
