@@ -1,0 +1,16 @@
+email = input()
+if '.' in email and '@' in email:
+    print("YES")
+else:
+    print("NO")
+
+i also learned:
+len
+sep
+end
+if
+elif
+else
+float
+min
+max
