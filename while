@@ -1,0 +1,60 @@
+today i have practiced while 
+
+a = input()
+while a != 'stop':
+    print(a)
+    a = input()
+
+a = input()
+while not (a == 'КОНЕЦ' or a == 'конец'):
+    print(a)
+    a = input()
+
+a = input()
+counter = 0
+while a not in('стоп', 'stop1', 'sto2'):
+    counter += 1
+    a = input()
+print(counter)
+
+
+a = int(input())
+while a % 7 == 0:
+    print(a)
+    a = int(input())
+
+a = int(input())
+sum = 0
+while a >= 0:
+    sum += a
+    a = int(input())
+print(sum)
+
+
+a = int(input())
+sum = 0
+while a > 0 and a <= 5:
+    if a == 5:
+        sum += 1
+    a = int(input())
+print(sum)
+
+
+This code was hard it find a name that dont have a _ 
+a = input()
+while '_' in a:
+    a = input()
+    
+print(a)
+
+and the hardest one for today is 
+a = input()
+counter = -1
+while a != ('Alexander'):
+    a = input()
+while a != ('Levon') :
+    counter += 1
+    a = input()
+print(counter)
+it check the range between 2 name
+
