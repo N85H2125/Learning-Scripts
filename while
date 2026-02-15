@@ -58,3 +58,44 @@ while a != ('Levon') :
 print(counter)
 it check the range between 2 name
 
+and the most hard question for me is 
+its find difftences beetween 2 times for example 21 0 22 0 but this code a little broken
+
+h1 = int(input())
+m1 = int(input())
+h2 = int(input())
+m2 = int(input())
+sum1 = h1 * 60 + m1 
+sum2 = h2 * 60 + m2
+while sum2 > sum1:
+    if int(h1) < 10:
+        h1 = '0' + str(h1) 
+    if int(m1) < 10:
+        m1 = '0' + str(m1) 
+    if int(h2) < 10:
+        h2 = '0' + str(h2) 
+    if int(m2) < 10:
+        m2 = '0' + str(m2) 
+    print(h1, ':', m1, sep='')
+    h1 = int(h1)
+    m1 = int(m1)
+    h2 = int(h2)
+    m2 = int(m2)
+    if m1 >= 59:
+        m1 = 0
+        h1 += 1
+        if h1 < 9:
+            h1 = '0' + str(h1)
+        print(h1, ':', '00', sep = '')
+        h1= int(h1)
+    m1 = int(m1) + 1
+    sum1 = int(h1) * 60 + int(m1)
+if int(h1) < 10:
+    h1 = '0' + str(h1) 
+if int(m1) < 10:
+    m1 = '0' + str(m1) 
+if int(h2) < 10:
+    h2 = '0' + str(h2) 
+if int(m2) < 10:
+    m2 = '0' + str(m2) 
+print(h1, ':', m1, sep='')
